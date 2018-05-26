@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_publications"
+        android:icon="@mipmap/icon_tap_bar_news"
+        android:title="@string/title_publications" />
+
+    <item
+        android:id="@+id/navigation_advert"
+        android:icon="@mipmap/icon_tap_bar_ad"
+        android:title="@string/title_advert" />
+
+    <item
+        android:id="@+id/navigation_charity"
+        android:icon="@mipmap/icon_tap_bar_blago"
+        android:title="@string/title_charity" />    
+  <item
+        android:id="@+id/navigation_organization"
+        android:icon="@mipmap/icon_tap_bar_organization"
+        android:title="@string/title_organization" />  
+  <item
+        android:id="@+id/navigation_account"
+        android:icon="@mipmap/icon_tap_bar_profile"
+        android:title="@string/title_account" />
+
+</menu>

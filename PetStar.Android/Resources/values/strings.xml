@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PetStarAndroid</string>
+    <string name="title_publications">Публикации</string>
+    <string name="title_advert">Объявления</string>
+    <string name="title_charity">Благотворит</string>
+    <string name="title_organization">Организации</string>
+    <string name="title_account">Профиль</string>
+</resources>
