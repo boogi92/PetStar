@@ -83,11 +83,14 @@ namespace PetStarAndroid
             this.CurrentFragment = PublicationsFragment;
             this.FragmentCommit(PublicationsFragment, "Publications");
 
-
-
-            _textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.top_menus, menu);
+            return base.OnCreateOptionsMenu(menu);
         }
 
         private void ShowFragment(Fragment fragment)

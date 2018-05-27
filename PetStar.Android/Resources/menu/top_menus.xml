@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--For all properties see: http://developer.android.com/guide/topics/resources/menu-resource.html-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+       android:id="@+id/menu_edit"
+       android:icon="@mipmap/icon_search"
+       android:title="Edit"
+       android:showAsAction="always" />
+  <item
+       android:id="@+id/menu_save"
+       android:icon="@mipmap/icon_message"
+       android:title="Save" 
+       android:showAsAction="always" />
+  <item
+       android:id="@+id/menu_preferences"
+       android:showAsAction="always"
+       android:title="Preferences"
+       android:icon="@mipmap/icon_notification" />  
+</menu>
