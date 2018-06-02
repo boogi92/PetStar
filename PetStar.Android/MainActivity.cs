@@ -11,8 +11,6 @@ namespace PetStarAndroid
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
-        private TextView _textMessage;
-
         private OrganizationFragment organizationFragment;
         private AdvertFragment AdvertFragment;
         private CharityFragment CharityFragment;

@@ -164,13 +164,32 @@
             android:id="@+id/imageView1"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp" />
-        <Button
-            android:text="РЕДАКТИРОВАТЬ ПРОФИЛЬ"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
             android:layout_width="match_parent"
-            android:layout_height="41.0dp"
-            android:id="@+id/button1"
-            android:background="@mipmap/rectangle"
-            android:textColor="#ff818181" />
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/linearSetting">
+            <Button
+                android:text="РЕДАКТИРОВАТЬ ПРОФИЛЬ"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnEditProf"
+                android:background="@mipmap/rectangle"
+                android:layout_weight="1"
+                android:textColor="#ff818181"
+                android:layout_gravity="top"
+                android:layout_marginRight="0.0dp" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_setting"
+                android:id="@+id/btnSetting"
+                android:layout_marginRight="0.0dp" />
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"

@@ -5,4 +5,15 @@
     <string name="title_charity">Благотворительность</string>
     <string name="title_organization">Организации</string>
     <string name="title_account">Профиль</string>
+
+    <!--Профиль-->
+    <string name="profEditImg">ИЗМЕНИТЬ ФОТО</string>
+    <string name="profName">Имя</string>
+    <string name="profLogin">Логин</string>
+    <string name="profGender">Пол</string>
+    <string name="profAboutMe">О себе</string>
+    <string name="profEditEmail">Изменить почту</string>
+    <string name="profEditPassword">Изменить пароль</string>
+    <string name="profDelete">УДАЛИТЬ АККАУНТ</string>
+    <string name="profSaveChanges">СОХРАНИТЬ ИЗМЕНЕНИЯ</string>
 </resources>

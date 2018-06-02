@@ -2204,11 +2204,11 @@ namespace PetStarAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08009e
-			public const int Icon = 2131230878;
+			// aapt resource value: 0x7f080085
+			public const int Icon = 2131230853;
 			
-			// aapt resource value: 0x7f080088
-			public const int action0 = 2131230856;
+			// aapt resource value: 0x7f08008b
+			public const int action0 = 2131230859;
 			
 			// aapt resource value: 0x7f080064
 			public const int action_bar = 2131230820;
@@ -2231,17 +2231,17 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080041
 			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f080085
-			public const int action_container = 2131230853;
+			// aapt resource value: 0x7f080088
+			public const int action_container = 2131230856;
 			
 			// aapt resource value: 0x7f080065
 			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f08008c
-			public const int action_divider = 2131230860;
+			// aapt resource value: 0x7f08008f
+			public const int action_divider = 2131230863;
 			
-			// aapt resource value: 0x7f080086
-			public const int action_image = 2131230854;
+			// aapt resource value: 0x7f080089
+			public const int action_image = 2131230857;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2258,11 +2258,11 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080043
 			public const int action_mode_close_button = 2131230787;
 			
-			// aapt resource value: 0x7f080087
-			public const int action_text = 2131230855;
+			// aapt resource value: 0x7f08008a
+			public const int action_text = 2131230858;
 			
-			// aapt resource value: 0x7f080095
-			public const int actions = 2131230869;
+			// aapt resource value: 0x7f080098
+			public const int actions = 2131230872;
 			
 			// aapt resource value: 0x7f080044
 			public const int activity_chooser_view_content = 2131230788;
@@ -2288,14 +2288,20 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int button1 = 2131230890;
+			// aapt resource value: 0x7f0800ad
+			public const int btnEditProf = 2131230893;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int btnSetting = 2131230894;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int button1 = 2131230897;
 			
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
-			// aapt resource value: 0x7f080089
-			public const int cancel_action = 2131230857;
+			// aapt resource value: 0x7f08008c
+			public const int cancel_action = 2131230860;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -2309,8 +2315,8 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f08005b
 			public const int checkbox = 2131230811;
 			
-			// aapt resource value: 0x7f080091
-			public const int chronometer = 2131230865;
+			// aapt resource value: 0x7f080094
+			public const int chronometer = 2131230868;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -2366,8 +2372,8 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f08009b
-			public const int end_padder = 2131230875;
+			// aapt resource value: 0x7f08009e
+			public const int end_padder = 2131230878;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -2408,8 +2414,8 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080049
 			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f080096
-			public const int icon_group = 2131230870;
+			// aapt resource value: 0x7f080099
+			public const int icon_group = 2131230873;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -2417,17 +2423,17 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080046
 			public const int image = 2131230790;
 			
+			// aapt resource value: 0x7f0800ab
+			public const int imageView1 = 2131230891;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int imageVir1 = 2131230886;
+			
 			// aapt resource value: 0x7f0800a9
-			public const int imageView1 = 2131230889;
+			public const int imageVir2 = 2131230889;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int imageVir1 = 2131230884;
-			
-			// aapt resource value: 0x7f0800a7
-			public const int imageVir2 = 2131230887;
-			
-			// aapt resource value: 0x7f080092
-			public const int info = 2131230866;
+			// aapt resource value: 0x7f080095
+			public const int info = 2131230869;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
@@ -2438,29 +2444,32 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f080097
-			public const int line1 = 2131230871;
+			// aapt resource value: 0x7f08009a
+			public const int line1 = 2131230874;
 			
-			// aapt resource value: 0x7f080099
-			public const int line3 = 2131230873;
+			// aapt resource value: 0x7f08009c
+			public const int line3 = 2131230876;
 			
 			// aapt resource value: 0x7f080074
 			public const int linearLayout1 = 2131230836;
 			
-			// aapt resource value: 0x7f08009c
-			public const int linearLayout2 = 2131230876;
+			// aapt resource value: 0x7f08009f
+			public const int linearLayout2 = 2131230879;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int linearLayout3 = 2131230891;
+			// aapt resource value: 0x7f0800af
+			public const int linearLayout3 = 2131230895;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int linearLayout4 = 2131230896;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int linearLoginProf = 2131230880;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int linearProfileInformation = 2131230883;
 			
 			// aapt resource value: 0x7f0800ac
-			public const int linearLayout4 = 2131230892;
-			
-			// aapt resource value: 0x7f08009d
-			public const int linearLoginProf = 2131230877;
-			
-			// aapt resource value: 0x7f0800a1
-			public const int linearProfileInformation = 2131230881;
+			public const int linearSetting = 2131230892;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
@@ -2468,20 +2477,20 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int masked = 2131230894;
+			// aapt resource value: 0x7f0800b3
+			public const int masked = 2131230899;
 			
-			// aapt resource value: 0x7f08008b
-			public const int media_actions = 2131230859;
+			// aapt resource value: 0x7f08008e
+			public const int media_actions = 2131230862;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int menu_edit = 2131230900;
+			// aapt resource value: 0x7f0800b9
+			public const int menu_edit = 2131230905;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int menu_preferences = 2131230902;
+			// aapt resource value: 0x7f0800bb
+			public const int menu_preferences = 2131230907;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int menu_save = 2131230901;
+			// aapt resource value: 0x7f0800ba
+			public const int menu_save = 2131230906;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -2492,29 +2501,29 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080019
 			public const int multiply = 2131230745;
 			
-			// aapt resource value: 0x7f08009f
-			public const int name = 2131230879;
+			// aapt resource value: 0x7f0800a1
+			public const int name = 2131230881;
 			
 			// aapt resource value: 0x7f080076
 			public const int navigation = 2131230838;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int navigation_account = 2131230899;
+			// aapt resource value: 0x7f0800b8
+			public const int navigation_account = 2131230904;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int navigation_advert = 2131230896;
+			// aapt resource value: 0x7f0800b5
+			public const int navigation_advert = 2131230901;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int navigation_charity = 2131230897;
+			// aapt resource value: 0x7f0800b6
+			public const int navigation_charity = 2131230902;
 			
 			// aapt resource value: 0x7f08007f
 			public const int navigation_header_container = 2131230847;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int navigation_organization = 2131230898;
+			// aapt resource value: 0x7f0800b7
+			public const int navigation_organization = 2131230903;
 			
-			// aapt resource value: 0x7f0800af
-			public const int navigation_publications = 2131230895;
+			// aapt resource value: 0x7f0800b4
+			public const int navigation_publications = 2131230900;
 			
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
@@ -2525,14 +2534,14 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f080094
-			public const int notification_background = 2131230868;
+			// aapt resource value: 0x7f080097
+			public const int notification_background = 2131230871;
 			
-			// aapt resource value: 0x7f08008e
-			public const int notification_main_column = 2131230862;
+			// aapt resource value: 0x7f080091
+			public const int notification_main_column = 2131230865;
 			
-			// aapt resource value: 0x7f08008d
-			public const int notification_main_column_container = 2131230861;
+			// aapt resource value: 0x7f080090
+			public const int notification_main_column_container = 2131230864;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -2555,11 +2564,11 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f080093
-			public const int right_icon = 2131230867;
+			// aapt resource value: 0x7f080096
+			public const int right_icon = 2131230870;
 			
-			// aapt resource value: 0x7f08008f
-			public const int right_side = 2131230863;
+			// aapt resource value: 0x7f080092
+			public const int right_side = 2131230866;
 			
 			// aapt resource value: 0x7f08001a
 			public const int screen = 2131230746;
@@ -2654,8 +2663,8 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f08008a
-			public const int status_bar_latest_event_content = 2131230858;
+			// aapt resource value: 0x7f08008d
+			public const int status_bar_latest_event_content = 2131230861;
 			
 			// aapt resource value: 0x7f08005e
 			public const int submenuarrow = 2131230814;
@@ -2666,20 +2675,23 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f08009a
-			public const int text = 2131230874;
+			// aapt resource value: 0x7f08009d
+			public const int text = 2131230877;
 			
-			// aapt resource value: 0x7f080098
-			public const int text2 = 2131230872;
-			
-			// aapt resource value: 0x7f0800a0
-			public const int textAboutMe = 2131230880;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int textPublications = 2131230883;
+			// aapt resource value: 0x7f08009b
+			public const int text2 = 2131230875;
 			
 			// aapt resource value: 0x7f0800a2
-			public const int textPublicationsCount = 2131230882;
+			public const int textAboutMe = 2131230882;
+			
+			// aapt resource value: 0x7f080086
+			public const int textInputEditText1 = 2131230854;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int textPublications = 2131230885;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int textPublicationsCount = 2131230884;
 			
 			// aapt resource value: 0x7f080052
 			public const int textSpacerNoButtons = 2131230802;
@@ -2687,17 +2699,20 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f080051
 			public const int textSpacerNoTitle = 2131230801;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int textSubscribers = 2131230886;
-			
-			// aapt resource value: 0x7f0800a5
-			public const int textSubscribersCount = 2131230885;
-			
 			// aapt resource value: 0x7f0800a8
-			public const int textSubscriptionsCount = 2131230888;
+			public const int textSubscribers = 2131230888;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int textSubscribersCount = 2131230887;
+			
+			// aapt resource value: 0x7f0800aa
+			public const int textSubscriptionsCount = 2131230890;
 			
 			// aapt resource value: 0x7f080077
 			public const int textView1 = 2131230839;
+			
+			// aapt resource value: 0x7f080087
+			public const int textView5 = 2131230855;
 			
 			// aapt resource value: 0x7f080084
 			public const int text_input_password_toggle = 2131230852;
@@ -2708,8 +2723,8 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f080090
-			public const int time = 2131230864;
+			// aapt resource value: 0x7f080093
+			public const int time = 2131230867;
 			
 			// aapt resource value: 0x7f08004a
 			public const int title = 2131230794;
@@ -2744,8 +2759,8 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int visible = 2131230893;
+			// aapt resource value: 0x7f0800b2
+			public const int visible = 2131230898;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -2939,70 +2954,73 @@ namespace PetStarAndroid
 			public const int design_text_input_password_icon = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_action = 2130968620;
+			public const int EditProfile = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_action_tombstone = 2130968621;
+			public const int notification_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_media_action = 2130968622;
+			public const int notification_action_tombstone = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_media_cancel_action = 2130968623;
+			public const int notification_media_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media = 2130968624;
+			public const int notification_media_cancel_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_big_media_custom = 2130968625;
+			public const int notification_template_big_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media_narrow = 2130968626;
+			public const int notification_template_big_media_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_narrow_custom = 2130968627;
+			public const int notification_template_big_media_narrow = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_custom_big = 2130968628;
+			public const int notification_template_big_media_narrow_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_icon_group = 2130968629;
+			public const int notification_template_custom_big = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_lines_media = 2130968630;
+			public const int notification_template_icon_group = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_media = 2130968631;
+			public const int notification_template_lines_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_media_custom = 2130968632;
+			public const int notification_template_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_part_chronometer = 2130968633;
+			public const int notification_template_media_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_part_time = 2130968634;
+			public const int notification_template_part_chronometer = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int OrganizationFragment = 2130968635;
+			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int ProfileFragment = 2130968636;
+			public const int OrganizationFragment = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int PublicationsFragment = 2130968637;
+			public const int ProfileFragment = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_item_material = 2130968638;
+			public const int PublicationsFragment = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_multichoice_material = 2130968639;
+			public const int select_dialog_item_material = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int select_dialog_singlechoice_material = 2130968640;
+			public const int select_dialog_multichoice_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int support_simple_spinner_dropdown_item = 2130968641;
+			public const int select_dialog_singlechoice_material = 2130968641;
+			
+			// aapt resource value: 0x7f040042
+			public const int support_simple_spinner_dropdown_item = 2130968642;
 			
 			static Layout()
 			{
@@ -3040,67 +3058,70 @@ namespace PetStarAndroid
 			public const int avatar = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int btnPlus = 2130903041;
+			public const int btn_setting = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_launcher = 2130903042;
+			public const int btnPlus = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ic_launcher_foreground = 2130903043;
+			public const int ic_launcher = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int ic_launcher_round = 2130903044;
+			public const int ic_launcher_foreground = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int icon_message = 2130903045;
+			public const int ic_launcher_round = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int icon_notification = 2130903046;
+			public const int icon_message = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int icon_search = 2130903047;
+			public const int icon_notification = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int icon_tap_bar_ad = 2130903048;
+			public const int icon_search = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int icon_tap_bar_ad_activ = 2130903049;
+			public const int icon_tap_bar_ad = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int icon_tap_bar_blago = 2130903050;
+			public const int icon_tap_bar_ad_activ = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int icon_tap_bar_blago_activ = 2130903051;
+			public const int icon_tap_bar_blago = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int icon_tap_bar_news = 2130903052;
+			public const int icon_tap_bar_blago_activ = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int icon_tap_bar_news_activ = 2130903053;
+			public const int icon_tap_bar_news = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int icon_tap_bar_organization = 2130903054;
+			public const int icon_tap_bar_news_activ = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int icon_tap_bar_organization_activ = 2130903055;
+			public const int icon_tap_bar_organization = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int icon_tap_bar_profile = 2130903056;
+			public const int icon_tap_bar_organization_activ = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int icon_tap_bar_profile_activ = 2130903057;
+			public const int icon_tap_bar_profile = 2130903057;
 			
 			// aapt resource value: 0x7f030012
-			public const int image = 2130903058;
+			public const int icon_tap_bar_profile_activ = 2130903058;
 			
 			// aapt resource value: 0x7f030013
-			public const int line = 2130903059;
+			public const int image = 2130903059;
 			
 			// aapt resource value: 0x7f030014
-			public const int line_vertical = 2130903060;
+			public const int line = 2130903060;
 			
 			// aapt resource value: 0x7f030015
-			public const int Rectangle = 2130903061;
+			public const int line_vertical = 2130903061;
+			
+			// aapt resource value: 0x7f030016
+			public const int Rectangle = 2130903062;
 			
 			static Mipmap()
 			{
@@ -3235,8 +3256,35 @@ namespace PetStarAndroid
 			// aapt resource value: 0x7f090028
 			public const int path_password_strike_through = 2131296296;
 			
+			// aapt resource value: 0x7f090033
+			public const int profAboutMe = 2131296307;
+			
+			// aapt resource value: 0x7f090036
+			public const int profDelete = 2131296310;
+			
+			// aapt resource value: 0x7f090034
+			public const int profEditEmail = 2131296308;
+			
 			// aapt resource value: 0x7f09002f
-			public const int profileFragment1 = 2131296303;
+			public const int profEditImg = 2131296303;
+			
+			// aapt resource value: 0x7f090035
+			public const int profEditPassword = 2131296309;
+			
+			// aapt resource value: 0x7f090032
+			public const int profGender = 2131296306;
+			
+			// aapt resource value: 0x7f090031
+			public const int profLogin = 2131296305;
+			
+			// aapt resource value: 0x7f090030
+			public const int profName = 2131296304;
+			
+			// aapt resource value: 0x7f090037
+			public const int profSaveChanges = 2131296311;
+			
+			// aapt resource value: 0x7f090038
+			public const int profileFragment1 = 2131296312;
 			
 			// aapt resource value: 0x7f090013
 			public const int search_menu_title = 2131296275;

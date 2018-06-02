@@ -57,8 +57,10 @@
   <ItemGroup>
     <Compile Include="Activitys\AdvertActivity.cs" />
     <Compile Include="Activitys\CharityActivity.cs" />
+    <Compile Include="Activitys\Profile\EditProfileActivity.cs" />
+    <Compile Include="Activitys\Profile\ProfileActivity.cs" />
     <Compile Include="Activitys\OrganizationActivity.cs" />
-    <Compile Include="Activitys\ProfileActivity.cs" />
+    <Compile Include="Activitys\Profile\SettingProfileActivity.cs" />
     <Compile Include="Activitys\PublicationsActivity.cs" />
     <Compile Include="Fragments\AdvertFragment.cs" />
     <Compile Include="Fragments\CharityFragment.cs" />
@@ -436,6 +438,34 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\nav_item_colors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\btn_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\btn_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\btn_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\btn_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\btn_setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\layout\SettingProfile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\EditProfile.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\xml\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

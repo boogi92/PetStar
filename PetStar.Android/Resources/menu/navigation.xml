@@ -4,24 +4,28 @@
     <item
         android:id="@+id/navigation_publications"
         android:icon="@mipmap/icon_tap_bar_news"
+        android:textSize="1dp"
         android:title="@string/title_publications" />
 
     <item
         android:id="@+id/navigation_advert"
         android:icon="@mipmap/icon_tap_bar_ad"
+        android:textSize="1dp"
         android:title="@string/title_advert" />
 
     <item
         android:id="@+id/navigation_charity"
         android:icon="@mipmap/icon_tap_bar_blago"
+        android:textSize="1dp"
         android:title="@string/title_charity" />    
   <item
         android:id="@+id/navigation_organization"
         android:icon="@mipmap/icon_tap_bar_organization"
+        android:textSize="1dp"
         android:title="@string/title_organization" />  
   <item
         android:id="@+id/navigation_account"
         android:icon="@mipmap/icon_tap_bar_profile"
+        android:textSize="1dp"
         android:title="@string/title_account" />
-
 </menu>
