@@ -1,229 +1,307 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffc4c4c4"
+    android:minWidth="25px"
+    android:minHeight="25px"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffc4c4c4">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <LinearLayout
         android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2"
-        android:background="#ffffff"
         android:layout_width="match_parent"
-        android:padding="15dp">
+        android:layout_height="match_parent">
         <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_height="match_parent"
-            android:id="@+id/linearLoginProf"
-            android:layout_width="match_parent">
-            <ImageView
-                android:src="@mipmap/avatar"
-                android:layout_width="match_parent"
-                android:layout_height="100.0dp"
-                android:id="@+id/Icon"
-                android:layout_marginBottom="0.0dp"
-                android:layout_weight="5" />
-            <TextView
-                android:text="ProfileFragment1"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/name"
-                android:textColor="#ff000000"
-                android:gravity="top|left"
-                android:layout_weight="4"
-                android:paddingTop="10dp" />
-        </LinearLayout>
-        <TextView
-            android:text="С другой стороны сложившаяся структура организации обеспечивает широкому кругу"
-            android:layout_width="match_parent"
-            android:id="@+id/textAboutMe"
-            android:textColor="#000000"
-            android:foregroundGravity="center|fill_horizontal|center_horizontal|fill_vertical|center_vertical|right|left|bottom|top|fill|clip_vertical|clip_horizontal"
-            android:gravity="center"
-            android:layout_height="match_parent"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp" />
-        <LinearLayout
-            android:orientation="horizontal"
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/linearProfileInformation">
-            <LinearLayout
-                android:orientation="vertical"
-                android:minWidth="25px"
-                android:minHeight="25px"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/linearProfileInformation"
-                android:layout_weight="1"
-                android:layout_gravity="top|left">
-                <TextView
-                    android:text="1"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#000000"
-                    android:id="@+id/textPublicationsCount"
-                    android:gravity="center" />
-                <TextView
-                    android:text="Публикаций"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#ff969696"
-                    android:id="@+id/textPublications"
-                    android:gravity="center"
-                    android:textSize="15dp" />
-            </LinearLayout>
-            <ImageView
-                android:src="@mipmap/line_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/imageVir1"
-                android:layout_gravity="top|center"
-                android:foregroundGravity="top|center"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
-            <LinearLayout
-                android:orientation="vertical"
-                android:minWidth="25px"
-                android:minHeight="25px"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:id="@+id/linearProfileInformation"
-                android:layout_gravity="top|center">
-                <TextView
-                    android:text="2"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#ff000000"
-                    android:id="@+id/textSubscribersCount"
-                    android:gravity="center" />
-                <TextView
-                    android:text="Подписчиков"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#969696"
-                    android:id="@+id/textSubscribers"
-                    android:gravity="center"
-                    android:textSize="15dp" />
-            </LinearLayout>
-            <ImageView
-                android:src="@mipmap/line_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/imageVir2"
-                android:foregroundGravity="top|center"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp" />
-            <LinearLayout
-                android:orientation="vertical"
-                android:minWidth="25px"
-                android:minHeight="25px"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:id="@+id/linearProfileInformation"
-                android:layout_gravity="top|right">
-                <TextView
-                    android:text="3"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#000000"
-                    android:id="@+id/textSubscriptionsCount"
-                    android:gravity="center" />
-                <TextView
-                    android:text="Подписок"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#969696"
-                    android:id="@+id/textSubscriptionsCount"
-                    android:gravity="center"
-                    android:textSize="15dp" />
-            </LinearLayout>
-        </LinearLayout>
-        <ImageView
-            android:src="@mipmap/line"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView1"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
-        <LinearLayout
-            android:orientation="horizontal"
-            android:minWidth="25px"
-            android:minHeight="25px"
+            android:id="@+id/linearLayout2"
+            android:background="#ffffff"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:id="@+id/linearSetting">
-            <Button
-                android:text="РЕДАКТИРОВАТЬ ПРОФИЛЬ"
-                android:layout_width="wrap_content"
+            android:padding="15dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
                 android:layout_height="match_parent"
-                android:id="@+id/btnEditProf"
-                android:background="@mipmap/rectangle"
+                android:id="@+id/linearLoginProf"
+                android:layout_width="match_parent">
+                <ImageView
+                    android:src="@mipmap/avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="100.0dp"
+                    android:id="@+id/Icon"
+                    android:layout_marginBottom="0.0dp"
+                    android:layout_weight="5" />
+                <TextView
+                    android:text="ProfileFragment1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:textColor="#ff000000"
+                    android:gravity="top|left"
+                    android:layout_weight="4"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+            <TextView
+                android:text="С другой стороны сложившаяся структура организации обеспечивает широкому кругу"
+                android:layout_width="match_parent"
+                android:id="@+id/textAboutMe"
+                android:textColor="#000000"
+                android:foregroundGravity="center|fill_horizontal|center_horizontal|fill_vertical|center_vertical|right|left|bottom|top|fill|clip_vertical|clip_horizontal"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:textColor="#ff818181"
-                android:layout_gravity="top"
-                android:layout_marginRight="0.0dp" />
-            <Button
-                android:layout_width="50dp"
+                android:id="@+id/linearProfileInformation">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearProfileInformation"
+                    android:layout_weight="1"
+                    android:layout_gravity="top|left">
+                    <TextView
+                        android:text="1"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:id="@+id/textPublicationsCount"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="Публикаций"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ff969696"
+                        android:id="@+id/textPublications"
+                        android:gravity="center"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <ImageView
+                    android:src="@mipmap/line_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/imageVir1"
+                    android:layout_gravity="top|center"
+                    android:foregroundGravity="top|center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/linearProfileInformation"
+                    android:layout_gravity="top|center">
+                    <TextView
+                        android:text="2"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ff000000"
+                        android:id="@+id/textSubscribersCount"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="Подписчиков"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#969696"
+                        android:id="@+id/textSubscribers"
+                        android:gravity="center"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <ImageView
+                    android:src="@mipmap/line_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/imageVir2"
+                    android:foregroundGravity="top|center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/linearProfileInformation"
+                    android:layout_gravity="top|right">
+                    <TextView
+                        android:text="3"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#000000"
+                        android:id="@+id/textSubscriptionsCount"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="Подписок"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#969696"
+                        android:id="@+id/textSubscriptionsCount"
+                        android:gravity="center"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@mipmap/btn_setting"
-                android:id="@+id/btnSetting"
-                android:layout_marginRight="0.0dp" />
+                android:id="@+id/linearSetting">
+                <Button
+                    android:text="РЕДАКТИРОВАТЬ ПРОФИЛЬ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnEditProf"
+                    android:background="@mipmap/rectangle"
+                    android:layout_weight="1"
+                    android:textColor="#ff818181"
+                    android:layout_gravity="top"
+                    android:layout_marginRight="0.0dp" />
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/btn_setting"
+                    android:id="@+id/btnSetting"
+                    android:layout_marginRight="0.0dp" />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:padding="15dp"
-        android:id="@+id/linearLayout3"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp">
-        <TextView
-            android:text="Питомцы"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView1"
-            android:textColor="#ff000000"
-            android:layout_marginBottom="10dp" />
         <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/linearLayout4">
-            <Button
-                android:text="+"
-                android:layout_width="65.0dp"
-                android:layout_height="65.0dp"
-                android:id="@+id/button1"
-                android:background="@mipmap/btnplus"
-                android:textColor="#ff818181"
-                android:layout_marginRight="0.0dp" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="15dp"
+            android:id="@+id/linearLayout3"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Питомцы"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textColor="#ff000000"
+                android:layout_marginBottom="10dp" />
+            <HorizontalScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView1">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/linearLayout4">
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                    <Button
+                        android:text="+"
+                        android:layout_width="65.0dp"
+                        android:layout_height="65.0dp"
+                        android:id="@+id/button1"
+                        android:background="@mipmap/btnplus"
+                        android:textColor="#ff818181"
+                        android:layout_marginRight="0.0dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
         </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
