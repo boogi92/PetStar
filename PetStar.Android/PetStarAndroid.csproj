@@ -465,6 +465,8 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Adapter\" />
+    <Folder Include="Fragments\Advert\" />
     <Folder Include="Resources\xml\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
