@@ -7,15 +7,13 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.View;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using PetStarAndroid.Adapter;
 
-namespace PetStarAndroid.Fragments
+namespace PetStarAndroid.Fragments.Advert
 {
-    public class AdvertFragment : Fragment
+    public class AdventSellingFragment : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -29,15 +27,7 @@ namespace PetStarAndroid.Fragments
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
-            var view = inflater.Inflate(Resource.Layout.AdvertFragment, container, false);
-            var viewPager = view.FindViewById<ViewPager>(Resource.Id.viewpager1);
-
-            var activity = this.Activity as MainActivity;
-
-            var adapter = new AdvertAdapter(activity.SupportFragmentManager);
-            viewPager.Adapter = adapter;
-
-            return view;
+            return base.OnCreateView(inflater, container, savedInstanceState);
         }
     }
 }

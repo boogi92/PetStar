@@ -62,7 +62,11 @@
     <Compile Include="Activitys\OrganizationActivity.cs" />
     <Compile Include="Activitys\Profile\SettingProfileActivity.cs" />
     <Compile Include="Activitys\PublicationsActivity.cs" />
+    <Compile Include="Adapter\AdvertAdapter.cs" />
     <Compile Include="Fragments\AdvertFragment.cs" />
+    <Compile Include="Fragments\Advert\AdventGiftFragment.cs" />
+    <Compile Include="Fragments\Advert\AdventSellingFragment.cs" />
+    <Compile Include="Fragments\Advert\AdventSubscribersFragment.cs" />
     <Compile Include="Fragments\CharityFragment.cs" />
     <Compile Include="Fragments\OrganizationFragment.cs" />
     <Compile Include="Fragments\ProfileFragment.cs" />
@@ -455,6 +459,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\btn_setting.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\AdventSubscribers.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <Content Include="Resources\layout\SettingProfile.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -465,8 +472,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Adapter\" />
-    <Folder Include="Fragments\Advert\" />
     <Folder Include="Resources\xml\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
