@@ -5,6 +5,9 @@
       <item name="colorPrimary">#ffffff</item>
       <item name="colorPrimaryDark">#FFB54D</item>
       <item name="colorControlActivated">#FFB54D</item>
+
+      <!--<item name="windowActionBar">false</item>
+      <item name="windowNoTitle">true</item>-->
       <!--<item name="android:windowBackground">@color/custom_theme_color</item>-->
     </style>
 

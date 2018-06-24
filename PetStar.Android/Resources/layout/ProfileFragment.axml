@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#ffc4c4c4"
+    android:background="#f2f2f2"
     android:minWidth="25px"
     android:minHeight="25px"
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:id="@+id/linearLayout2"
             android:background="#ffffff"
             android:layout_width="match_parent"
-            android:padding="15dp">
+            android:padding="16dp">
             <LinearLayout
                 android:orientation="horizontal"
                 android:minWidth="25px"
@@ -28,21 +28,21 @@
                 android:layout_width="match_parent">
                 <ImageView
                     android:src="@mipmap/avatar"
-                    android:layout_width="match_parent"
-                    android:layout_height="100.0dp"
+                    android:layout_width="80.0dp"
+                    android:layout_height="80.0dp"
                     android:id="@+id/Icon"
-                    android:layout_marginBottom="0.0dp"
-                    android:layout_weight="5" />
+                    android:layout_marginBottom="0.0dp" />
                 <TextView
                     android:text="ProfileFragment1"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="80.0dp"
                     android:id="@+id/name"
                     android:textColor="#ff000000"
                     android:gravity="top|left"
-                    android:layout_weight="4"
-                    android:paddingTop="10dp" />
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="16dp" />
             </LinearLayout>
             <TextView
                 android:text="С другой стороны сложившаяся структура организации обеспечивает широкому кругу"
@@ -52,8 +52,8 @@
                 android:foregroundGravity="center|fill_horizontal|center_horizontal|fill_vertical|center_vertical|right|left|bottom|top|fill|clip_vertical|clip_horizontal"
                 android:gravity="center"
                 android:layout_height="match_parent"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp" />
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="27dp" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:minWidth="25px"
@@ -78,7 +78,8 @@
                         android:layout_height="match_parent"
                         android:textColor="#000000"
                         android:id="@+id/textPublicationsCount"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:textSize="20dp" />
                     <TextView
                         android:text="Публикаций"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -87,7 +88,7 @@
                         android:textColor="#ff969696"
                         android:id="@+id/textPublications"
                         android:gravity="center"
-                        android:textSize="15dp" />
+                        android:textSize="12dp" />
                 </LinearLayout>
                 <ImageView
                     android:src="@mipmap/line_vertical"
@@ -115,7 +116,8 @@
                         android:layout_height="match_parent"
                         android:textColor="#ff000000"
                         android:id="@+id/textSubscribersCount"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:textSize="20dp" />
                     <TextView
                         android:text="Подписчиков"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -124,7 +126,7 @@
                         android:textColor="#969696"
                         android:id="@+id/textSubscribers"
                         android:gravity="center"
-                        android:textSize="15dp" />
+                        android:textSize="12dp" />
                 </LinearLayout>
                 <ImageView
                     android:src="@mipmap/line_vertical"
@@ -151,7 +153,8 @@
                         android:layout_height="match_parent"
                         android:textColor="#000000"
                         android:id="@+id/textSubscriptionsCount"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:textSize="20dp" />
                     <TextView
                         android:text="Подписок"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -160,7 +163,7 @@
                         android:textColor="#969696"
                         android:id="@+id/textSubscriptionsCount"
                         android:gravity="center"
-                        android:textSize="15dp" />
+                        android:textSize="12dp" />
                 </LinearLayout>
             </LinearLayout>
             <ImageView
@@ -175,7 +178,7 @@
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40.0dp"
                 android:layout_weight="1"
                 android:id="@+id/linearSetting">
                 <Button
@@ -189,8 +192,8 @@
                     android:layout_gravity="top"
                     android:layout_marginRight="0.0dp" />
                 <Button
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40.0dp"
+                    android:layout_height="40.0dp"
                     android:layout_weight="1"
                     android:background="@mipmap/btn_setting"
                     android:id="@+id/btnSetting"
@@ -206,15 +209,16 @@
             android:background="#ffffff"
             android:padding="15dp"
             android:id="@+id/linearLayout3"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
             <TextView
                 android:text="Питомцы"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView1"
                 android:textColor="#ff000000"
-                android:layout_marginBottom="10dp" />
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp" />
             <HorizontalScrollView
                 android:minWidth="25px"
                 android:minHeight="25px"
@@ -228,78 +232,204 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/linearLayout4">
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
-                    <Button
-                        android:text="+"
-                        android:layout_width="65.0dp"
-                        android:layout_height="65.0dp"
-                        android:id="@+id/button1"
-                        android:background="@mipmap/btnplus"
-                        android:textColor="#ff818181"
-                        android:layout_marginRight="0.0dp" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Добавить"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="80.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout5">
+                        <Button
+                            android:text="+"
+                            android:id="@+id/button1"
+                            android:background="@mipmap/btnplus"
+                            android:textColor="#ff818181"
+                            android:layout_width="80.0dp"
+                            android:layout_height="80.0dp" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textColor="#ff808080"
+                            android:gravity="center" />
+                    </LinearLayout>
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>

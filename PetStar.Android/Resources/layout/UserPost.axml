@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout12">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="72.0dp"
+            android:background="#ffffff"
+            android:padding="16dp"
+            android:id="@+id/linearLayout9">
+            <ImageView
+                android:layout_height="40.0dp"
+                android:id="@+id/imagePostUser"
+                android:background="@mipmap/avatar"
+                android:layout_width="40.0dp"
+                android:layout_gravity="center" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:id="@+id/linearLayout3">
+                <TextView
+                    android:text="Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textNickname"
+                    android:layout_weight="1"
+                    android:textColor="#ff000000"
+                    android:textSize="16dp" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textTopPost"
+                    android:layout_weight="1"
+                    android:textColor="#ff808080"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <Button
+                android:layout_width="8dp"
+                android:layout_height="24dp"
+                android:id="@+id/button1"
+                android:background="@mipmap/icon_kebab"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="360.0dp"
+            android:id="@+id/imagePost" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="58.0dp"
+            android:background="#ffffff"
+            android:padding="16dp"
+            android:id="@+id/linearLayout10">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/linearLayout5">
+                <ImageView
+                    android:src="@mipmap/icon_line_comment"
+                    android:layout_width="26.0dp"
+                    android:layout_height="27.0dp"
+                    android:id="@+id/imageView1" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/commentCount"
+                    android:gravity="center"
+                    android:textColor="#ff000000"
+                    android:paddingLeft="8dp"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/line_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="top|center"
+                android:foregroundGravity="top|center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/imageView2" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/linearLayout6">
+                <ImageView
+                    android:src="@mipmap/icon_line_star"
+                    android:layout_width="26.0dp"
+                    android:layout_height="26.5dp"
+                    android:id="@+id/imageView3" />
+                <TextView
+                    android:text="Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/likeCount"
+                    android:gravity="center"
+                    android:textColor="#ff000000"
+                    android:paddingLeft="8dp"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <ImageView
+                android:src="@mipmap/line_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="top|center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/imageView4" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/linearLayout7">
+                <ImageView
+                    android:src="@mipmap/icon_line_message"
+                    android:layout_width="26.0dp"
+                    android:layout_height="26.0dp"
+                    android:id="@+id/imageView5" />
+                <TextView
+                    android:text="ОТПР."
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#ff000000"
+                    android:paddingLeft="8dp"
+                    android:id="@+id/textView2"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:id="@+id/linearLayout11">
+            <TextView
+                android:text="Понравилось friendnick и еще 9 999 357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textLike"
+                android:textColor="#ff000000"
+                android:textSize="14dp" />
+            <TextView
+                android:text="С другой стороны сложившаяся структура организации обеспечивает широкому круг…еще"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textPost"
+                android:textColor="#ff000000"
+                android:textSize="14dp" />
+            <TextView
+                android:text="friendnick  С другой стороны сложившаяся структура организации обеспечивает широкому"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textCommentFirst"
+                android:textColor="#ff000000"
+                android:textSize="14dp" />
+            <TextView
+                android:text="friendnick  Равным образом сложившаяся структура организации в значительной степени обуславливает создание систем массового участия"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textComent"
+                android:textColor="#ff000000"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:id="@+id/linearLayout14"
+            android:layout_margin="16dp">
+            <ImageView
+                android:background="@mipmap/avatar"
+                android:layout_width="24.0dp"
+                android:layout_height="24.0dp"
+                android:id="@+id/imageView6" />
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditText1"
+                android:textColor="#ff000000"
+                android:text="Все ок"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#ffffff"
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+        <TextView
+            android:text="10 часов назад"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTime"
+            android:textColor="#808080"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>

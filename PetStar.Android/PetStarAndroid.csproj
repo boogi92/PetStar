@@ -62,14 +62,25 @@
     <Compile Include="Activitys\OrganizationActivity.cs" />
     <Compile Include="Activitys\Profile\SettingProfileActivity.cs" />
     <Compile Include="Activitys\PublicationsActivity.cs" />
+    <Compile Include="Adapter\AdvertPagerAdapter.cs" />
+    <Compile Include="Adapter\BaseListAdapter.cs" />
+    <Compile Include="Adapter\PostListAdapter.cs" />
     <Compile Include="Fragments\AdvertFragment.cs" />
+    <Compile Include="Fragments\Advert\AdventGiftFragment.cs" />
+    <Compile Include="Fragments\Advert\AdventSellingFragment.cs" />
+    <Compile Include="Fragments\Advert\AdventSubscribersFragment.cs" />
     <Compile Include="Fragments\CharityFragment.cs" />
     <Compile Include="Fragments\OrganizationFragment.cs" />
     <Compile Include="Fragments\ProfileFragment.cs" />
     <Compile Include="Fragments\PublicationsFragment.cs" />
+    <Compile Include="ImageManager.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Model\PostModel.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\ViewHolder.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -272,11 +283,6 @@
     <AndroidResource Include="Resources\mipmap-hdpi\icon_tap_bar_profile_activ.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\AdvertFragment.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\CharityFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -387,6 +393,9 @@
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
       <Version>25.4.0.2</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Android.UniversalImageLoader">
+      <Version>1.9.5.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\top_menus.xml" />
@@ -455,9 +464,46 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\btn_setting.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\AdvertFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\custom_tab.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\list_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidAsset Include="Assets\avatar.png" />
+    <AndroidAsset Include="Assets\image.png" />
     <Content Include="Resources\layout\SettingProfile.xml">
       <SubType>Designer</SubType>
     </Content>
+    <AndroidResource Include="Resources\layout\userRow.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\UserPost.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon_line_comment.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon_line_message.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon_line_comment.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon_line_message.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon_line_comment.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon_line_message.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon_line_comment.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon_line_message.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon_line_comment.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon_line_message.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon_kebab.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon_kebab.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon_kebab.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon_kebab.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon_kebab.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon_line_star.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon_line_star.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon_line_star.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon_line_star.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon_line_star.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\EditProfile.axml">
@@ -465,8 +511,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Adapter\" />
-    <Folder Include="Fragments\Advert\" />
     <Folder Include="Resources\xml\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
