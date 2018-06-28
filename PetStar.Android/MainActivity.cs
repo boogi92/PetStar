@@ -5,6 +5,11 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using PetStarAndroid.Fragments;
+using PetStarAndroid.Fragments.Advert;
+using PetStarAndroid.Fragments.Charity;
+using PetStarAndroid.Fragments.Organization;
+using PetStarAndroid.Fragments.Profile;
+using PetStarAndroid.Fragments.Publications;
 
 namespace PetStarAndroid
 {

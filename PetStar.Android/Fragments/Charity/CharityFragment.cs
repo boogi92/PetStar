@@ -11,7 +11,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 
-namespace PetStarAndroid.Fragments
+namespace PetStarAndroid.Fragments.Charity
 {
     public class CharityFragment : Fragment
     {

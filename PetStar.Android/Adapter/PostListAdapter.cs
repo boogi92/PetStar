@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using PetStarAndroid.Model;
+using PetStarAndroid.ViewHolder;
 
 namespace PetStarAndroid.Adapter
 {
@@ -32,7 +33,7 @@ namespace PetStarAndroid.Adapter
                 var commentCount = view.FindViewById<TextView>(Resource.Id.commentCount);
                 var likeCount = view.FindViewById<TextView>(Resource.Id.likeCount);
 
-                view.Tag = new ViewHolder()
+                view.Tag = new PostListViewHolder()
                 {
                     ImagePost = imagePost,
                     ImagePostUser = imagePostUser,
@@ -43,7 +44,7 @@ namespace PetStarAndroid.Adapter
                 };
             }
 
-            var holder = (ViewHolder)view.Tag;
+            var holder = (PostListViewHolder)view.Tag;
             
             holder.ImagePostUser.Background = ImageManager.Get(parent.Context, Lists[position].IconUrl);
             holder.ImagePost.Background = ImageManager.Get(parent.Context, Lists[position].PostUrl);

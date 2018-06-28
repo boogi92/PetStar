@@ -14,7 +14,7 @@ using Android.Views;
 using Android.Support.V7.Widget;
 using PetStarAndroid.Adapter;
 
-namespace PetStarAndroid.Fragments
+namespace PetStarAndroid.Fragments.Advert
 {
     public class AdvertFragment : Fragment
     {

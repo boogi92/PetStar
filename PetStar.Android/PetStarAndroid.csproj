@@ -34,6 +34,9 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -62,25 +65,31 @@
     <Compile Include="Activitys\OrganizationActivity.cs" />
     <Compile Include="Activitys\Profile\SettingProfileActivity.cs" />
     <Compile Include="Activitys\PublicationsActivity.cs" />
+    <Compile Include="Activitys\TutorialActivity.cs" />
     <Compile Include="Adapter\AdvertPagerAdapter.cs" />
     <Compile Include="Adapter\BaseListAdapter.cs" />
+    <Compile Include="Adapter\PetShopListAdapter.cs" />
     <Compile Include="Adapter\PostListAdapter.cs" />
-    <Compile Include="Fragments\AdvertFragment.cs" />
+    <Compile Include="Fragments\Advert\AdvertFragment.cs" />
     <Compile Include="Fragments\Advert\AdventGiftFragment.cs" />
     <Compile Include="Fragments\Advert\AdventSellingFragment.cs" />
     <Compile Include="Fragments\Advert\AdventSubscribersFragment.cs" />
-    <Compile Include="Fragments\CharityFragment.cs" />
-    <Compile Include="Fragments\OrganizationFragment.cs" />
-    <Compile Include="Fragments\ProfileFragment.cs" />
-    <Compile Include="Fragments\PublicationsFragment.cs" />
+    <Compile Include="Fragments\Authorization\AuthorizationFragment.cs" />
+    <Compile Include="Fragments\Charity\CharityFragment.cs" />
+    <Compile Include="Fragments\Organization\OrganizationFragment.cs" />
+    <Compile Include="Fragments\Profile\ProfileFragment.cs" />
+    <Compile Include="Fragments\Publications\PublicationsFragment.cs" />
     <Compile Include="ImageManager.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Model\PetShopModel.cs" />
     <Compile Include="Model\PostModel.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\ViewHolder.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserData.cs" />
+    <Compile Include="ViewHolder\PetShopViewHolder.cs" />
+    <Compile Include="ViewHolder\PostListViewHolder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -475,12 +484,16 @@
     </AndroidResource>
     <AndroidAsset Include="Assets\avatar.png" />
     <AndroidAsset Include="Assets\image.png" />
+    <AndroidResource Include="Resources\layout\BaseList.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidAsset Include="Assets\list_fon.png" />
+    <AndroidResource Include="Resources\layout\Authorization.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <Content Include="Resources\layout\SettingProfile.xml">
       <SubType>Designer</SubType>
     </Content>
-    <AndroidResource Include="Resources\layout\userRow.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\UserPost.axml">
       <SubType>Designer</SubType>
     </AndroidResource>

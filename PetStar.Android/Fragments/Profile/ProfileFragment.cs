@@ -12,7 +12,7 @@ using Android.Views;
 using Android.Widget;
 using PetStarAndroid.Activitys.Profile;
 
-namespace PetStarAndroid.Fragments
+namespace PetStarAndroid.Fragments.Profile
 {
     public class ProfileFragment : Fragment
     {

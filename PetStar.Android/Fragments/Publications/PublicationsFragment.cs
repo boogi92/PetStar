@@ -13,7 +13,7 @@ using Android.Widget;
 using PetStarAndroid.Adapter;
 using PetStarAndroid.Model;
 
-namespace PetStarAndroid.Fragments
+namespace PetStarAndroid.Fragments.Publications
 {
     public class PublicationsFragment : Fragment
     {

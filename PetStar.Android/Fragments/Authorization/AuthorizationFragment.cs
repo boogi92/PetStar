@@ -11,9 +11,9 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 
-namespace PetStarAndroid.Fragments.Advert
+namespace PetStarAndroid.Fragments.Authorization
 {
-    public class Fragment1 : Fragment
+    public class AuthorizationFragment : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
