@@ -65,7 +65,7 @@
     <Compile Include="Activitys\OrganizationActivity.cs" />
     <Compile Include="Activitys\Profile\SettingProfileActivity.cs" />
     <Compile Include="Activitys\PublicationsActivity.cs" />
-    <Compile Include="Activitys\TutorialActivity.cs" />
+    <Compile Include="Activitys\AuthorizationActivity.cs" />
     <Compile Include="Adapter\AdvertPagerAdapter.cs" />
     <Compile Include="Adapter\BaseListAdapter.cs" />
     <Compile Include="Adapter\PetShopListAdapter.cs" />
@@ -517,6 +517,26 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\icon_line_star.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\icon_line_star.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\icon_line_star.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\inst_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\or_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\vk_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\log_petstar.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\inst_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\log_petstar.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\or_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\vk_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\inst_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\log_petstar.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\or_bt.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\vk_bt.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\inst_bt.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\log_petstar.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\or_bt.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\vk_bt.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\inst_bt.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\log_petstar.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\or_bt.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\vk_bt.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\EditProfile.axml">

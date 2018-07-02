@@ -16,4 +16,10 @@
     <string name="profEditPassword">Изменить пароль</string>
     <string name="profDelete">УДАЛИТЬ АККАУНТ</string>
     <string name="profSaveChanges">СОХРАНИТЬ ИЗМЕНЕНИЯ</string>
+  
+    <!--Авторизация-->
+    <string name="login">Почта или логин</string>
+    <string name="password">Пароль</string>
+    <string name="termsOfUse">При входе или регистрации вы соглашаетесь с условиями пользовательского соглашения</string>
+ 
 </resources>

@@ -13,7 +13,7 @@ using Android.Widget;
 namespace PetStarAndroid.Activitys
 {
     [Activity(Label = "Tutorial_Activity")]
-    public class TutorialActivity : Activity
+    public class AuthorizationActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
