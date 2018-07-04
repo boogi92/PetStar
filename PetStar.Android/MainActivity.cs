@@ -1,9 +1,11 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using PetStarAndroid.Activitys;
 using PetStarAndroid.Fragments;
 using PetStarAndroid.Fragments.Advert;
 using PetStarAndroid.Fragments.Charity;
@@ -79,15 +81,23 @@ namespace PetStarAndroid
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.activity_main);
+            if (false)
+            {
+                base.OnCreate(savedInstanceState);
+                SetContentView(Resource.Layout.activity_main);
 
-            this.PublicationsFragment = new PublicationsFragment();
-            this.CurrentFragment = PublicationsFragment;
-            this.FragmentCommit(PublicationsFragment, "Publications");
+                this.PublicationsFragment = new PublicationsFragment();
+                this.CurrentFragment = PublicationsFragment;
+                this.FragmentCommit(PublicationsFragment, "Publications");
 
-            BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-            navigation.SetOnNavigationItemSelectedListener(this);
+                BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
+                navigation.SetOnNavigationItemSelectedListener(this);
+            }
+
+            var authorizationActivity = new Intent(this, typeof(AuthorizationActivity));
+            StartActivity(authorizationActivity);
+
+            StartActivity(typeof(AuthorizationActivity));
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)

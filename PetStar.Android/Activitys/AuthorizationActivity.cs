@@ -9,17 +9,37 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using PetStarAndroid.Fragments.Authorization;
 
 namespace PetStarAndroid.Activitys
 {
-    [Activity(Label = "Tutorial_Activity")]
+    [Activity(Label = "Авторизация")]
     public class AuthorizationActivity : Activity
     {
+        private AuthorizationFragment AuthorizationFragment;
+        private TutorialFragment TutorialFragment;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+            SetContentView(Resource.Layout.Authorization);
+
+            if (false)
+            {
+                this.FragmentCommit(new AuthorizationFragment(), "Authorization");
+            }
+            else
+            {
+                this.FragmentCommit(new TutorialFragment(), "Tutorial");
+            }
+        }
+
+        private void FragmentCommit(Fragment fragment, string name)
+        {
+            var transaction = FragmentManager.BeginTransaction();
+            transaction.Add(Resource.Id.AutfraContainer, fragment, name);
+            transaction.Commit();
         }
     }
 }
