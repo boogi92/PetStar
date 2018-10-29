@@ -18,7 +18,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -37,6 +37,7 @@
     <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
+    <Debugger>Xamarin</Debugger>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -501,6 +502,7 @@
     <AndroidResource Include="Resources\layout\AuthorizationFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\bt_oval.xml" />
     <Content Include="Resources\layout\SettingProfile.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -547,6 +549,29 @@
     <AndroidResource Include="Resources\mipmap-hdpi\log_petstar.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\or_bt.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\vk_bt.png" />
+    <AndroidResource Include="Resources\layout\Tutorial.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\step1.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\step2.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\step3.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\step4.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\step1.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\step2.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\step3.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\step4.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\step1.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\step2.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\step3.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\step4.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\step1.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\step2.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\step3.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\step4.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\step1.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\step2.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\step3.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\step4.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\EditProfile.axml">

@@ -30,7 +30,6 @@ namespace PetStarAndroid.Fragments.Organization
 
             var listView = view.FindViewById<ListView>(Resource.Id.listViewOrganization);
 
-
             var Posts = new List<PetShopModel>()
             {
                 new PetShopModel

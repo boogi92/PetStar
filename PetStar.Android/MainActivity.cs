@@ -81,21 +81,16 @@ namespace PetStarAndroid
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            if (false)
-            {
-                base.OnCreate(savedInstanceState);
-                SetContentView(Resource.Layout.activity_main);
+            base.OnCreate(savedInstanceState);
 
-                this.PublicationsFragment = new PublicationsFragment();
-                this.CurrentFragment = PublicationsFragment;
-                this.FragmentCommit(PublicationsFragment, "Publications");
+            SetContentView(Resource.Layout.activity_main);
 
-                BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-                navigation.SetOnNavigationItemSelectedListener(this);
-            }
+            this.PublicationsFragment = new PublicationsFragment();
+            this.CurrentFragment = PublicationsFragment;
+            this.FragmentCommit(PublicationsFragment, "Publications");
 
-            var authorizationActivity = new Intent(this, typeof(AuthorizationActivity));
-            StartActivity(authorizationActivity);
+            BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
+            navigation.SetOnNavigationItemSelectedListener(this);
 
             StartActivity(typeof(AuthorizationActivity));
         }

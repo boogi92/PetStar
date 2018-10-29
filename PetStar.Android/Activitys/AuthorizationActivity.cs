@@ -16,9 +16,6 @@ namespace PetStarAndroid.Activitys
     [Activity(Label = "Авторизация")]
     public class AuthorizationActivity : Activity
     {
-        private AuthorizationFragment AuthorizationFragment;
-        private TutorialFragment TutorialFragment;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
